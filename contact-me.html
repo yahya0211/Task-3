@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="left">
+        <ul>
+          <img src="assets/img/dumbways-id-tangerang-logos-idycziPVBN.png" alt="logo-image" />
+
+          <li class="active">
+            <a href="personal.html">Home</a>
+          </li>
+          <li>
+            <a href="navbar.html">My Project</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <a href="">Contact Me</a>
+      </div>
+    </nav>
+
+    <!-- Isi -->
+    <div class="formulir">
+      <h1 class="atas">get in touch</h1>
+      <form class="isi-form">
+        <div class="name">
+          <label> Name </label><br />
+          <input id="name" class="name-box" type="text" />
+        </div>
+
+        <div class="email">
+          <label>Email</label><br />
+          <input id="email" class="email-box" type="email" />
+        </div>
+
+        <div class="number">
+          <label>Phone Number</label><br />
+          <input id="phone" class="number-box" type="text" />
+        </div>
+
+        <div class="subject">
+          <label>Subject</label><br />
+          <select id="subject" class="subject-box">
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Fullstack Developer</option>
+          </select>
+        </div>
+
+        <div class="massage">
+          <label>Your Massage</label><br />
+          <textarea id="massage" class="massage-box"></textarea>
+        </div>
+
+        <div class="btn-submit">
+          <button onclick="getData()" type="button" class="btn-submit">submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
